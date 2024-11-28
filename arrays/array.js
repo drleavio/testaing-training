@@ -40,6 +40,9 @@ const response=newarray.filter(function(val){
 
 console.log(response);
 // console.log(newArray);
+const cit=newarray.slice(1,3)
+console.log(cit);
+
 
 
 
