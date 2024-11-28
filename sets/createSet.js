@@ -29,4 +29,27 @@ console.log(item);
 set.delete(9)
 console.log(set);
 
+//set entries in js
+
+const entry=set.entries()
+let newText='';
+for(const x of entry){
+    newText+=x+" ";
+}
+console.log(newText);
+
+//for each in set 
+
+let Texts='';
+set.forEach((item)=>{
+    Texts+=item+" ";
+})
+console.log(Texts);
+
+
+//has method in set which return boolean value
+
+console.log(set.has(5));
+
+
 
